@@ -69,7 +69,7 @@ cd adaptive_tracking_control
 python main_single_learning.py
 ```
 
-6Run the following command to compare the proposed method with baseline learning methods:
+6. Run the following command to compare the proposed method with baseline learning methods:
 ```bash
 cd adaptive_tracking_control
 python main_monte_carlo.py

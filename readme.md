@@ -8,7 +8,7 @@
 This is the official code repository of "**Lie-algebra Learning for Differential Wheeled Robots Tracking Control with Model Uncertainty**", , which is accepted by IEEE CASE'25.
 
 
-This works combines the Lie-algebra tracking formulation and adaptive dynamic programming and proposes a geometric consistent 
+This work combines the Lie-algebra tracking formulation and adaptive dynamic programming and proposes a geometric consistent 
 learning method for differential wheeled robots to handle model uncertainty. Simulation experiments validate the efficiency of the proposed method and demonstrate the advantages of our control method over existing approaches.
 
 
@@ -76,11 +76,13 @@ python main_monte_carlo.py
 ```
 
 
-### Visualization
+### Time-vary Tracking Results Visualization
 
-Initial Trajectory        |           Learned Trajectory            
-:-------------------------:|:----------------------------------------:
-![](./adaptive_tracking_control/data/time_varying_tracking/init_time_vary_trajectory.jpg)  |     ![](./adaptive_tracking_control/data/time_varying_tracking/learned_time_vary_trajectory.jpg)      
+Ours        |                                           GMPC                                            | FBC
+:-------------------------:|:-----------------------------------------------------------------------------------------:|:----------------------------------------
+![](./adaptive_tracking_control/data/time_varying_tracking/learned_time_vary_trajectory.jpg)  | ![](./adaptive_tracking_control/data/time_varying_tracking/init_time_vary_trajectory.jpg) |     ![](./adaptive_tracking_control/data/time_varying_tracking/fbc_time_vary_trajectory.jpg)     
+![](./adaptive_tracking_control/data/time_varying_tracking/learned_time_vary_v.jpg)  |     ![](./adaptive_tracking_control/data/time_varying_tracking/init_time_vary_v.jpg)      |     ![](./adaptive_tracking_control/data/time_varying_tracking/fbc_time_vary_v.jpg)     
+![](./adaptive_tracking_control/data/time_varying_tracking/learned_time_vary_w.jpg)  |     ![](./adaptive_tracking_control/data/time_varying_tracking/init_time_vary_w.jpg)      |     ![](./adaptive_tracking_control/data/time_varying_tracking/fbc_time_vary_w.jpg)     
 
 
 #### Thanks
